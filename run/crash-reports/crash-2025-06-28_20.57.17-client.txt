@@ -4,7 +4,7 @@
 Time: 2025-06-28 20:57:17
 Description: Initializing game
 
-java.lang.NoClassDefFoundError: cn.ksmcbrigade.mh_fs.mixin.PackRepositoryMixin is invalid
+java.lang.NoClassDefFoundError: mixin.net.shuyanmc.mpem.mh_fs.PackRepositoryMixin is invalid
 	at org.spongepowered.asm.service.modlauncher.ModLauncherClassTracker.handlesClass(ModLauncherClassTracker.java:91) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}
 	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.handlesClass(MixinLaunchPluginLegacy.java:109) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}
 	at cpw.mods.modlauncher.LaunchPluginHandler.computeLaunchPluginTransformerSet(LaunchPluginHandler.java:69) ~[modlauncher-10.0.9.jar:?] {}
@@ -18,7 +18,7 @@ java.lang.NoClassDefFoundError: cn.ksmcbrigade.mh_fs.mixin.PackRepositoryMixin i
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?] {}
 	at java.lang.Class.forName0(Native Method) ~[?:?] {re:mixin}
 	at java.lang.Class.forName(Class.java:375) ~[?:?] {re:mixin}
-	at cn.ksmcbrigade.mh_fs.ModHiderConstants.involve(ModHiderConstants.java:20) ~[main/:?] {re:mixin,re:classloading}
+	at net.shuyanmc.mpem.mh_fs.ModHiderConstants.involve(ModHiderConstants.java:20) ~[main/:?] {re:mixin,re:classloading}
 	at net.minecraft.server.packs.repository.PackRepository.handler$zza000$initMods(PackRepository.java:523) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar:?] {re:mixin,re:classloading,pl:mixin:APP:mh_fs.mixins.json:PackRepositoryMixin,pl:mixin:A}
 	at net.minecraft.server.packs.repository.PackRepository.reload(PackRepository.java:33) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar:?] {re:mixin,re:classloading,pl:mixin:APP:mh_fs.mixins.json:PackRepositoryMixin,pl:mixin:A}
 	at net.minecraft.client.Minecraft.<init>(Minecraft.java:460) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
@@ -61,7 +61,7 @@ Stacktrace:
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?] {}
 	at java.lang.Class.forName0(Native Method) ~[?:?] {re:mixin}
 	at java.lang.Class.forName(Class.java:375) ~[?:?] {re:mixin}
-	at cn.ksmcbrigade.mh_fs.ModHiderConstants.involve(ModHiderConstants.java:20) ~[%23196!/:?] {re:mixin,re:classloading}
+	at net.shuyanmc.mpem.mh_fs.ModHiderConstants.involve(ModHiderConstants.java:20) ~[%23196!/:?] {re:mixin,re:classloading}
 	at net.minecraft.server.packs.repository.PackRepository.handler$zza000$initMods(PackRepository.java:523) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?] {re:mixin,re:classloading,pl:mixin:APP:mh_fs.mixins.json:PackRepositoryMixin,pl:mixin:A}
 	at net.minecraft.server.packs.repository.PackRepository.reload(PackRepository.java:33) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?] {re:mixin,re:classloading,pl:mixin:APP:mh_fs.mixins.json:PackRepositoryMixin,pl:mixin:A}
 	at net.minecraft.client.Minecraft.<init>(Minecraft.java:460) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}

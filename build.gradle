@@ -169,6 +169,8 @@ dependencies {
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 
+    implementation fg.deobf(files('lib/!MoonlitPEM_2.0.5.jar'))
+
     /*jarJar(group: 'org.objectweb.asm', name: 'asm-all', version: '[3.1,3.2)') {
         jarJar.pin(it, '3.1')
     }*/
@@ -201,7 +203,8 @@ tasks.named('jar', Jar).configure {
                     "Implementation-Title"    : project.name,
                     "Implementation-Version"  : project.jar.archiveVersion,
                     "Implementation-Vendor"   : mod_authors,
-                    "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")])
+                    "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
+                    'FMLCorePluginContainsFMLMod': true])
     }
 
     // This is the preferred method to reobfuscate your jar file

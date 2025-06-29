@@ -4,12 +4,6 @@
   "package": "cn.ksmcbrigade.mh_fs.mixin",
   "compatibilityLevel": "JAVA_8",
   "refmap": "mh_fs.refmap.json",
-  "mixins": [
-    "PackRepositoryMixin",
-    "ReloadableResourceManagerMixin"
-  ],
-  "client": [
-  ],
   "injectors": {
     "defaultRequire": 1
   },

@@ -5,7 +5,7 @@ Time: 2025-06-28 21:19:49
 Description: Initializing game
 
 java.lang.RuntimeException: Failed to dynamically open module
-	at cn.ksmcbrigade.mh_fs.ModHiderConstants.involve(ModHiderConstants.java:39) ~[main/:?] {re:mixin,re:classloading}
+	at net.shuyanmc.mpem.mh_fs.ModHiderConstants.involve(ModHiderConstants.java:39) ~[main/:?] {re:mixin,re:classloading}
 	at net.minecraft.server.packs.repository.PackRepository.handler$zza000$initMods(PackRepository.java:523) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar:?] {re:mixin,re:classloading,pl:mixin:APP:mh_fs.mixins.json:PackRepositoryMixin,pl:mixin:A}
 	at net.minecraft.server.packs.repository.PackRepository.reload(PackRepository.java:33) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar:?] {re:mixin,re:classloading,pl:mixin:APP:mh_fs.mixins.json:PackRepositoryMixin,pl:mixin:A}
 	at net.minecraft.client.Minecraft.<init>(Minecraft.java:460) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
@@ -31,7 +31,7 @@ Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make void ja
 	at java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297) ~[?:?] {}
 	at java.lang.reflect.Method.checkCanSetAccessible(Method.java:200) ~[?:?] {}
 	at java.lang.reflect.Method.setAccessible(Method.java:194) ~[?:?] {}
-	at cn.ksmcbrigade.mh_fs.ModHiderConstants.involve(ModHiderConstants.java:36) ~[main/:?] {re:mixin,re:classloading}
+	at net.shuyanmc.mpem.mh_fs.ModHiderConstants.involve(ModHiderConstants.java:36) ~[main/:?] {re:mixin,re:classloading}
 	... 20 more
 
 
@@ -42,7 +42,7 @@ A detailed walkthrough of the error, its code path and all known details is as f
 Thread: Render thread
 Suspected Mods: NONE
 Stacktrace:
-	at cn.ksmcbrigade.mh_fs.ModHiderConstants.involve(ModHiderConstants.java:39) ~[%23196!/:?] {re:mixin,re:classloading}
+	at net.shuyanmc.mpem.mh_fs.ModHiderConstants.involve(ModHiderConstants.java:39) ~[%23196!/:?] {re:mixin,re:classloading}
 	at net.minecraft.server.packs.repository.PackRepository.handler$zza000$initMods(PackRepository.java:523) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?] {re:mixin,re:classloading,pl:mixin:APP:mh_fs.mixins.json:PackRepositoryMixin,pl:mixin:A}
 	at net.minecraft.server.packs.repository.PackRepository.reload(PackRepository.java:33) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?] {re:mixin,re:classloading,pl:mixin:APP:mh_fs.mixins.json:PackRepositoryMixin,pl:mixin:A}
 	at net.minecraft.client.Minecraft.<init>(Minecraft.java:460) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
