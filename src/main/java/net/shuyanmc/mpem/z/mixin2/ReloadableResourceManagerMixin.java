@@ -47,7 +47,7 @@ public class ReloadableResourceManagerMixin {
             LoadingModList loadingModList = (LoadingModList) loadingModListF.get(loader);
             LoadingModList newLoadingModList;
             if(!CONFIG.exists()){
-                FileUtils.writeStringToFile(CONFIG,"[\"mh_fs\"]");
+                FileUtils.writeStringToFile(CONFIG,"[\"mh_f\",\"mh_fs\"]");
             }
             JsonArray array = JsonParser.parseString(FileUtils.readFileToString(CONFIG)).getAsJsonArray();
             for (JsonElement element : array) {
