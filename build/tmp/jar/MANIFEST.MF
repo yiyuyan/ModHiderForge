@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: mh_f
+Specification-Vendor: KSmc_brigade
+Specification-Version: 1
+Implementation-Title: untitled2
+Implementation-Version: 1.2
+Implementation-Vendor: KSmc_brigade
+Implementation-Timestamp: 2025-06-29T12:24:47+0800
+MixinConfigs: mh_f.mixins.json
+

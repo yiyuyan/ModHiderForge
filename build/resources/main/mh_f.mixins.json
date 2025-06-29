@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.shuyanmc.mpem.z.mixin2",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mh_f.refmap.json",
+  "mixins": [
+    "PackRepositoryMixin",
+    "ReloadableResourceManagerMixin"
+  ],
+  "client": [
+    "MinecraftMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

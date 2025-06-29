@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "net/shuyanmc/mpem/z/mixin2/PackRepositoryMixin": {
+      "reload": "Lnet/minecraft/server/packs/repository/PackRepository;m_10506_()V"
+    },
+    "net/shuyanmc/mpem/z/mixin2/MinecraftMixin": {
+      "destroy": "Lnet/minecraft/client/Minecraft;m_91393_()V"
+    }
+  },
+  "data": {
+    "searge": {
+      "net/shuyanmc/mpem/z/mixin2/PackRepositoryMixin": {
+        "reload": "Lnet/minecraft/server/packs/repository/PackRepository;m_10506_()V"
+      },
+      "net/shuyanmc/mpem/z/mixin2/MinecraftMixin": {
+        "destroy": "Lnet/minecraft/client/Minecraft;m_91393_()V"
+      }
+    }
+  }
+}
